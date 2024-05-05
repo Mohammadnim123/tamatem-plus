@@ -1,0 +1,71 @@
+.login-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    gap: 1.5rem;
+    height: 100vh;
+}
+
+.login-page .body {
+    border: 1px solid #CBCCDA;
+    border-radius: 18px;
+    opacity: 1;
+    width: 540px;
+    height: 453px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    gap: 1.5rem;
+
+}
+
+.login-btn {
+    width: 350px;
+    height: 60px;
+    background: #00805A 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 3px 12px #00805A79 !important;
+    border-radius: 10px !important;
+    opacity: 1;
+}
+
+.login-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    gap: 1.5rem;
+}
+
+.login-form a {
+    color: #576171;
+    font-size: 14px;
+    align-self: flex-start;
+    text-decoration: underline !important;
+}
+
+.login-form h1 {
+    text-align: center;
+    font: normal normal bold 24px/40px Inter;
+    letter-spacing: -0.48px;
+    color: #000430;
+    opacity: 1;
+}
+
+.form-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    gap: 0.5rem;
+}
+
+.login-input {
+    width: 350px !important;
+    height: 60px !important;
+    border: 1px solid #CBCCDA !important;
+    border-radius: 10px !important;
+    background: transparent !important;
+    opacity: 1 !important;
+}

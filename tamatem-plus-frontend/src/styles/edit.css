@@ -1,0 +1,74 @@
+.edit-page {
+    padding: 2rem 0;
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+    justify-content: center;
+    height: 100vh;
+}
+
+.edit-form {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 16px;
+    padding: 40px 56px;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+}
+
+.form-group label {
+    font: normal normal normal 18px/36px Madani Arabic Variable;
+    letter-spacing: 0px;
+    color: #2D3278;
+}
+
+.form-group input[type="text"] {
+    height: 59px;
+    background: #EDEEF1 0% 0% no-repeat padding-box;
+    border-radius: 12px
+}
+
+.edit-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.edit-actions .cancel {
+    width: 200px;
+    height: 48px;
+    background: #919194 0% 0% no-repeat padding-box;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal normal 600 16px/26px Inter;
+    letter-spacing: -0.32px;
+    color: #FFFFFF;
+    border: unset;
+}
+
+.edit-actions .save {
+    width: 200px;
+    height: 48px;
+    background: #00805A 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal normal 600 16px/26px Inter;
+    letter-spacing: -0.32px;
+    color: #FFFFFF;
+    border: unset;
+}
+
+.file {
+    width: 100%;
+    background: #EDEEF1 0% 0% no-repeat padding-box;
+    border: 1px dashed #8E8F99;
+    border-radius: 12px;
+    height: 84px;
+}
